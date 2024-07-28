@@ -1,0 +1,6 @@
+
+^
+java:S2259 "BA "NullPointerException" could be thrown; "head" is nullable here.(Í½ÈZ8¬µòÄŽ2
+G	java:S106"+Replace this use of System.out by a logger.(Š›ôù8®µòÄŽ2
+W
+java:S1854":Remove this useless assignment to local variable "values".(ší‰†8®µòÄŽ2
