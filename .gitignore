@@ -1,5 +1,5 @@
-./target
+/target
 
-./.idea/
-./*.xml
-./*.iml
+.idea/
+*.xml
+*.iml
