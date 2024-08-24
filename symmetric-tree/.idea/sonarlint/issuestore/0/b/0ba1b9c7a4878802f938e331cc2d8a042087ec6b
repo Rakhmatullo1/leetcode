@@ -1,0 +1,13 @@
+
+W
+java:S1854":Remove this useless assignment to local variable "result".(üØù§8¬Êâ•2
+[
+java:S1854"9Remove this useless assignment to local variable "right".(ÈœÇ“ÿÿÿÿÿ8³¦ç•2
+U
+java:S1854"8Remove this useless assignment to local variable "left".(Ï€˜8³¦ç•2
+F
+java:S1481")Remove this unused "left" local variable.(Ï€˜8µ¦ç•2
+L
+java:S1481"*Remove this unused "right" local variable.(ÈœÇ“ÿÿÿÿÿ8¶¦ç•2
+H
+java:S1481"+Remove this unused "result" local variable.(üØù§8¯Êâ•2

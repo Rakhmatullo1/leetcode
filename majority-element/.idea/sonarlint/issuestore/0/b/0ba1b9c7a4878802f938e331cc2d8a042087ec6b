@@ -1,0 +1,8 @@
+
+r
+java:S3655"PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.(¢Ñ…Íüÿÿÿÿ8Ïïù˜‘2
+Y
+java:S1854"7Remove this useless assignment to local variable "max".(•ù²–ûÿÿÿÿ8·Èñ˜‘2
+L	java:S106"+Replace this use of System.out by a logger.(‚ÞÏ¥ýÿÿÿÿ8¸Èñ˜‘2
+J
+java:S1481"(Remove this unused "max" local variable.(•ù²–ûÿÿÿÿ8¸Èñ˜‘2

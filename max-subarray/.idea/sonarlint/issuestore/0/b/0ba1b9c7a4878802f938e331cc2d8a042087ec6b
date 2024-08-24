@@ -1,0 +1,6 @@
+
+\
+java:S1854":Remove this useless assignment to local variable "result".(Ê‹ÿ§ıÿÿÿÿ8Ûİãè2
+L	java:S106	"+Replace this use of System.out by a logger.(‚ŞÏ¥ıÿÿÿÿ8ŒÒØè2
+M
+java:S1481"+Remove this unused "result" local variable.(Ê‹ÿ§ıÿÿÿÿ8äİãè2

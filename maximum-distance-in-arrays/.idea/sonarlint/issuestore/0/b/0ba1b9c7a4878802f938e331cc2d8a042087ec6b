@@ -1,0 +1,12 @@
+
+L	java:S106"+Replace this use of System.out by a logger.(‚ŞÏ¥ıÿÿÿÿ8ääÍ•2
+W
+java:S1854":Remove this useless assignment to local variable "minOne".(øáŒß8ƒ¡åÍ•2
+V
+java:S1854":Remove this useless assignment to local variable "maxOne".(Ô–°`8“¯æÍ•2
+R
+java:S1481"0Remove this unused "maxIndexTwo" local variable.(• æ°şÿÿÿÿ8“¯æÍ•2
+G
+java:S1481"+Remove this unused "maxOne" local variable.(Ô–°`8ƒ¡åÍ•2
+H
+java:S1481"+Remove this unused "minOne" local variable.(øáŒß8”¯æÍ•2

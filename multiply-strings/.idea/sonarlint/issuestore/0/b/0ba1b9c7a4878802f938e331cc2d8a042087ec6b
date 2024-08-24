@@ -1,0 +1,14 @@
+
+W
+java:S1854":Remove this useless assignment to local variable "result".(Š‰Àø8ÆÄšœ˜2
+L	java:S106"+Replace this use of System.out by a logger.(‚ŞÏ¥ıÿÿÿÿ8ÆÄšœ˜2
+H
+java:S1481"+Remove this unused "result" local variable.(Š‰Àø8ÇÄšœ˜2
+n
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 18 to the 15 allowed.(¢ëÌ"8ÇÄšœ˜2
+t
+java:S3776H"RRefactor this method to reduce its Cognitive Complexity from 31 to the 15 allowed.(œ¨‰§ûÿÿÿÿ8ÊÄšœ˜2
+{
+java:S3012V"YUse "Arrays.copyOf", "Arrays.asList", "Collections.addAll" or "System.arraycopy" instead.(Ä÷ñıÿÿÿÿ8ËÄšœ˜2
+{
+java:S3012h"YUse "Arrays.copyOf", "Arrays.asList", "Collections.addAll" or "System.arraycopy" instead.(óÚÅÏûÿÿÿÿ8ËÄšœ˜2
