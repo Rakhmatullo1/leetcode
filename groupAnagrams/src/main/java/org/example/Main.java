@@ -1,8 +1,6 @@
 package org.example;
 
-import java.util.ArrayList;
-import java.util.List;
-
+import java.util.*;
 
 
 public class Main {
@@ -14,40 +12,38 @@ public class Main {
 
     public static List<List<String>> groupAnagrams(String[] strs) {
         List<List<String>> ans = new ArrayList<>();
+        Map<String, List<Integer>> map = new HashMap<>();
 
-        for(int i=0; i<strs.length; i++){
-            boolean isAvailable = true;
-            List<String> temp = new ArrayList<>();
-
-            if(!ans.isEmpty()){
-                for(List<String> a : ans){
-                    if(a.contains(strs[i])){
-                        isAvailable = false;
-                        break;
-                    }
-                }
+        for (int i = 0; i < strs.length; i++) {
+            if(map.containsKey(orderStr(strs[i]))) {
+                List<Integer> ints = map.get(orderStr(strs[i]));
+                ints.add(i);
+                map.put(orderStr(strs[i]), ints);
+            } else {
+                List<Integer> ints = new ArrayList<>(List.of(i));
+                map.put(orderStr(strs[i]), ints);
             }
+        }
 
-            if(isAvailable) {
-                temp.add(strs[i]);
-                for(int j=i+1; j< strs.length; j++ ) {
-                    if(calcASCII(strs[i])==calcASCII(strs[j])){
-                        temp.add(strs[j]);
-                    }
-                }
-                ans.add(temp);
-            }
+        for (String key : map.keySet()) {
+            ans.add(map.get(key).stream().map(value->strs[value]).toList());
         }
 
         return ans;
     }
 
-    private static int calcASCII(String str) {
-        int sum=0;
-        for(int i=0; i<str.length(); i++){
-            sum=sum+str.charAt(i);
-        }
+    public static  String  orderStr(String str) {
+        StringBuilder sb = new StringBuilder();
+        char[] chars = new char[str.length()];
 
-        return sum;
+        for(int i=0; i<str.length(); i++) {
+            chars[i] = str.charAt(i);
+        }
+        Arrays.sort(chars);
+
+        for(int i=0; i<chars.length; i++) {
+            sb.append(chars[i]);
+        }
+        return sb.toString();
     }
 }
